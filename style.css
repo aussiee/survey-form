@@ -1,0 +1,27 @@
+/* table,
+th,
+td {
+  border: 1px solid black;
+  margin: collapse;
+} */
+#txt {
+  /* font-size: 18pt; */
+  height: 142px;
+  width: 300px;
+}
+.Firstrow {
+  background-color: rgb(250, 210, 210);
+}
+.thirdrow {
+  background-color: rgb(250, 210, 210);
+}
+.rowother {
+  background-color: rgb(250, 210, 210);
+}
+
+.roww {
+  background-color: rgb(250, 210, 210);
+}
+span {
+  color: red;
+}

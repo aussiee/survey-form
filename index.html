@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <!-- <link rel="stylesheet" href="script.js" /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form>
+      <h5>Name<span>*</span></h5>
+      <input type="text" class="fname" placeholder="First Name" />
+      <input type="text" class="lname" placeholder="Last Name" />
+      <h5>Email <span>*</span></h5>
+      <input type="text" />
+      <h5>Your Experience <span>*</span></h5>
+      <p>Overall, how would you rate your experience with us?</p>
+      <div class="container">
+        <div class="star">
+          <input type="radio" name="rate" id="rate-5" />
+          <label for="rate-5"></label>
+          <input type="radio" name="rate" id="rate-4" />
+          <label for="rate-4"></label>
+          <input type="radio" name="rate" id="rate-3" />
+          <label for="rate-3"></label>
+          <input type="radio" name="rate" id="rate-2" />
+          <label for="rate-2"></label>
+          <input type="radio" name="rate" id="rate-1" />
+          <label for="rate-1"></label>
+      
+
+        <h5>How satisfied are you with <span>*</span></h5>
+      </div>
+      <table>
+        <td>
+          <tr>
+            <th></th>
+            <th>Very Unstaisfied</th>
+            <th style="padding: 10px">Unstaisfied</th>
+            <th style="padding: 10px">Neutral</th>
+            <th style="padding: 10px">Satisfied</th>
+            <th style="padding: 10px">Very Sataisfied</th>
+          </tr>
+          <tr class="Firstrow">
+            <td>Purchase</td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+          </tr>
+          <tr>
+            <td>Service</td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+          </tr>
+          <tr class="thirdrow">
+            <td>Company Overall</td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+            <td style="padding: 20px"><input type="radio" /></td>
+          </tr>
+        </td>
+      </table>
+      <h5>How likely are you to <span>*</span></h5>
+      <table>
+        <tr>
+          <th></th>
+          <th>Very Unlikely</th>
+          <th style="padding: 10px">Unlikely</th>
+          <th style="padding: 10px">Neutral</th>
+          <th style="padding: 10px">Likely</th>
+          <th style="padding: 10px">Very likely</th>
+        </tr>
+        <tr class="rowother">
+          <td>Buy from us again</td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+        </tr>
+        <tr>
+          <td>Recommend our Product to others</td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+        </tr>
+        <tr class="roww">
+          <td>Recommend our company to others</td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+          <td style="padding: 20px"><input type="radio" /></td>
+        </tr>
+      </table>
+      <h5>Additional comments or suggestions</h5>
+      <input type="text" id="txt" /><br />
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>
